@@ -1,27 +1,26 @@
-# imports
-import random
+#imports
+
 import time
 import os
-import system
+
 # vars
 deaths = 0
 total = 0
-usersuccess = 0
-userfail = 0
 life = 0
 name = 0
 
-#var adds
+# var adds
+usersuccess = True or False
+userfail = True or False
 total = usersuccess + life
 deaths = userfail
 life = usersuccess - userfail
-#
-print 'Welcome to the Python Game'
+if usersuccess is True:
+    total + 1
+# intro
+    print 'Welcome to the Python Game'
 time.sleep(1)
-
-
- name = input ('What is your name?')
- print name , ('Is this correct')
- yes = input('type y for yes or n for no')
- if yes =  click.getchar(y) os.system(python story.py )
- else yes = getchar(n) os.system(python main.py)
+name = input('What is your name?')
+time.sleep(1)
+print name, ('It is nice to meet you')
+os.system('python story.py')
