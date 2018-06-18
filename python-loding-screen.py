@@ -1,17 +1,23 @@
 # imports libs
 
 import time
-import tkinter
-import Tkinter
-from tkinter import Tk,PhotoImage
-root =Tk()
-root.title("Title")
-root.geometry("600x600")
-root.configure(background="black")
+from tkinter import Tk, Label, Button
+# main gui
+class Mainscreen:
+    def __init__(self, master):
+        self.master = master
+        master.title("A simple GUI")
+        self.master.pack()
 
-background_image = PhotoImage(file="Background.gif")
+        self.greet_button = Button(master, text="Greet", command=self.greet)
+        self.greet_button.pack()
 
-background = Label(root, image=background_image, bd=0)
-background.pack()
+        self.close_button = Button(master, text="Close", command=master.quit)
+        self.close_button.pack()
 
-root.mainloop
+    def greet(self):
+        print("Greetings!")
+
+root = Tk()
+my_gui = Mainscreen(root)
+root.mainloop()
