@@ -7,9 +7,11 @@ class Mainscreen:
     def __init__(self, master):
         self.master = master
         master.title("Python Game")
-        self.master.pack()
 
-        self.greet_button = Button(master, text="Greet", command=self.greet)
+        self.label = Label(master, text="Python_Game")
+        self.label.pack()
+
+        self.greet_button = Button(master, text="Start", command=self.greet)
         self.greet_button.pack()
 
         self.close_button = Button(master, text="Close", command=master.quit)
