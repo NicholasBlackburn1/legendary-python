@@ -18,7 +18,10 @@ life = usersuccess - userfail
 #
 print 'Welcome to the Python Game'
 time.sleep(1)
-name = input ('What is your name?')
+
+
+ name = input ('What is your name?')
  print name , ('Is this correct')
  yes = input('type y for yes or n for no')
- if yes =  click.getchar(y) os.system(python )
+ if yes =  click.getchar(y) os.system(python story.py )
+ else yes = getchar(n) os.system(python main.py)
