@@ -1,4 +1,4 @@
 # imports
 import main
 
-print ('')
+print ('s')
