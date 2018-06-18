@@ -36,6 +36,7 @@ if menu_number == 1:
     time.sleep(2)
     os.system('python video.py')
     print('then you get a surprise')
+
 #  menu number 2
 if menu_number == 2:
     print ('you are at Starbucks now exploiting the FBIs File server')
