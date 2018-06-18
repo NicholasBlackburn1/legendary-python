@@ -1,5 +1,6 @@
 # imports libs
-
+import sys
+import os
 import time
 from tkinter import Tk, Label, Button
 # main gui
@@ -18,7 +19,7 @@ class Mainscreen:
         self.close_button.pack()
 
     def greet(self):
-        print("Greetings!")
+        os.system('python main.py')
 
 root = Tk()
 my_gui = Mainscreen(root)

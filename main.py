@@ -1,7 +1,14 @@
+# imports
 import random
 import time
+# vars
+deaths = 0
+total = 0
+usersuccess = 0
+userfail = 0
+life = 0
 
-print 'welcome'
-print 'i will think'
-time.sleep(5)
-print 'i thought for', random.randint(1,200), 'seconds'
+#var adds
+total = usersuccess + life
+deaths = userfail
+life = usersuccess - userfail
