@@ -11,6 +11,7 @@ userfail = True or False
 total = usersuccess + life
 deaths = userfail
 life = usersuccess - userfail
+
 # intro
 print 'Welcome to the Python Game',
 time.sleep(1)
@@ -33,7 +34,8 @@ menu_number = int(menu_number_text)
 if menu_number == 1:
     print('You are sending fishing attacks to the FBI')
     time.sleep(2)
-    os.system('echo hi')
+    os.system('python video.py')
+    print('then you get a surprise')
 #  menu number 2
 if menu_number == 2:
     print ('you are at Starbucks now exploiting the FBIs File server')
