@@ -1,4 +1,3 @@
-#imports
 
 import time
 import os
@@ -17,6 +16,8 @@ deaths = userfail
 life = usersuccess - userfail
 if usersuccess is True:
     total + 1
+    if userfail is True:
+        deaths + 1
 # intro
     print 'Welcome to the Python Game'
 time.sleep(1)
