@@ -1,9 +1,10 @@
 # imports libs
 
 import time
+import tkinter
 import Tkinter
-
-root = Tk()
+from tkinter import Tk,PhotoImage
+root =Tk()
 root.title("Title")
 root.geometry("600x600")
 root.configure(background="black")
