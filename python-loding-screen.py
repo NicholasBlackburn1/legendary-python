@@ -6,7 +6,7 @@ from tkinter import Tk, Label, Button
 class Mainscreen:
     def __init__(self, master):
         self.master = master
-        master.title("A simple GUI")
+        master.title("Python Game")
         self.master.pack()
 
         self.greet_button = Button(master, text="Greet", command=self.greet)
