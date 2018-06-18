@@ -3,4 +3,6 @@
 # legendary-python
 1. my first complete game
 2. an text based game
-3. a game of chance 
+3. a game of chance
+4. you are a hacker and you have to choose how to hack the FBI
+5. hidded easter eggs!
