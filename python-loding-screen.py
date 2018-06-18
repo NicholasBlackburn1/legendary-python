@@ -1,14 +1,17 @@
 # imports libs
 import sys
 import os
+import playsound
+
 import time
 from tkinter import Tk, Label, Button
 # main gui
+
+
 class Mainscreen:
     def __init__(self, master):
         self.master = master
         master.title("Python Game")
-
         self.label = Label(master, text="Python_Game")
         self.label.pack()
 
@@ -20,6 +23,8 @@ class Mainscreen:
 
     def greet(self):
         os.system('python main.py')
+        os.system('start music.mp3')
+
 
 root = Tk()
 my_gui = Mainscreen(root)
