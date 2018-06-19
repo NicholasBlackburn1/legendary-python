@@ -1,7 +1,7 @@
 
 import time
 import os
-import pygame
+import pygame.mixer
 # vars
 deaths = 0
 total = 0
@@ -18,7 +18,6 @@ life = usersuccess - userfail
 def intro():
 
     print 'Welcome to the legendary Python Game\n',
-    crash_sound = pygame.mixer.Sound("best.wav")
 
 
 time.sleep(1)
