@@ -69,12 +69,12 @@ if menu_number == 3:
     print ('Then you are slowly backing away')
     time.sleep(2)
     print ('you never came back')
- # menu number 4
- if menu_number == 4:
-     print ('well your favorite moment')
-     time.sleep(2)
-     os.system('python video6.py')
-     time.sleep(2)
-     print ('well this is the bestday ever')
-     time.sleep(1)
-     os.system('python video7.py')
+    # menu number 4
+    if menu_number == 4:
+        print ('well your favorite moment')
+    time.sleep(2)
+    os.system('python video6.py')
+    time.sleep(2)
+    print ('well this is the bestday ever')
+    time.sleep(1)
+    os.system('python video7.py')
