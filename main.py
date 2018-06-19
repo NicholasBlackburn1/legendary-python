@@ -1,7 +1,7 @@
 
 import time
 import os
-
+import playsound
 # vars
 deaths = 0
 total = 0
@@ -14,6 +14,7 @@ life = usersuccess - userfail
 
 # intro
 print 'Welcome to the Python Game',
+playsound.playsound('music.mp3')
 time.sleep(1)
 print 'You are a hacker and you want to hack in to the government\n'
 time.sleep(1)
@@ -40,3 +41,7 @@ if menu_number == 1:
 #  menu number 2
 if menu_number == 2:
     print ('you are at Starbucks now exploiting the FBIs File server')
+
+# menu number 3
+if menu_number == 3:
+    print('you are asking the Mafia for their services')

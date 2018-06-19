@@ -1,7 +1,6 @@
 # imports libs
 import sys
 import os
-import playsound
 
 import time
 from tkinter import Tk, Label, Button
@@ -23,7 +22,6 @@ class Mainscreen:
 
     def greet(self):
         os.system('python main.py')
-        os.system('start music.mp3')
 
 
 root = Tk()
