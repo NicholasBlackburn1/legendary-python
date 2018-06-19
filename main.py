@@ -24,8 +24,7 @@ print ('''You need to infect one of the FBI computers\n
 
      1. Stay at home and send fishing emails to FBI employies\n
      2. Go to Starbucks and exploit the FBI's unupdated file server\n
-     3. Go to the local gang hideout and get their help\n
-     4. Walk into the FBI headquartors and threaten the receptionist with Ak\n
+     3. Walk into the FBI headquartors and threaten the receptionist with Ak\n
      5. Stay Home with your Neko companion and Snuggle together\n
      ''')
 menu_number_text = input('Enter the number you want\n')
@@ -54,9 +53,9 @@ if menu_number == 2:
     time.sleep(2)
     print('just 2 more seconds')
     time.sleep(1)
-    os.system ('python video4.py')
+    os.system('python video4.py')
     time.sleep(2)
-    print('your computer blew up when your were gameing ')
+    print('your computer blew up when your were downloading the information ')
 
 
 # menu number 3
