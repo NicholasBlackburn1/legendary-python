@@ -17,8 +17,8 @@ life = usersuccess - userfail
 
 def intro():
 
-    pygame.mixer.Sound("best.wav")
     print 'Welcome to the legendary Python Game\n',
+    crash_sound = pygame.mixer.Sound("best.wav")
 
 
 time.sleep(1)
