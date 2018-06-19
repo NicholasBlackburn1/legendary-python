@@ -17,6 +17,7 @@ life = usersuccess - userfail
 
 def intro():
 
+    pygame.mixer.Sound("best.wav")
     print 'Welcome to the legendary Python Game\n',
 
 
@@ -85,5 +86,5 @@ if menu_number == 4:
     time.sleep(2)
     print ('well this is the bestday ever')
     time.sleep(1)
-    pygame.mixer.Sound("best.mp3")
+    pygame.mixer.music.load('best.wav')
     pygame.mixer.music.play(-1)
