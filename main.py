@@ -15,6 +15,8 @@ life = usersuccess - userfail
 # intro
 print 'Welcome to the Python Game\n',
 time.sleep(1)
+print('Today is Dec 15 2018')
+time.sleep(1)
 print 'You are a hacker and you want to hack in to the government\n'
 time.sleep(1)
 # slection menu
@@ -25,7 +27,7 @@ print ('''You need to infect one of the FBI computers\n
      1. Stay at home and send fishing emails to FBI employies\n
      2. Go to Starbucks and exploit the FBI's unupdated file server\n
      3. Walk into the FBI headquartors and threaten the receptionist with Ak\n
-     4. Stay Home with your Neko companion and Snuggle together\n
+     4. Stay Home with your Neko companion and Snuggle together by the fireplace\n
      ''')
 menu_number_text = input('Enter the number you want\n')
 menu_number = int(menu_number_text)
@@ -60,4 +62,8 @@ if menu_number == 2:
 
 # menu number 3
 if menu_number == 3:
-    print('you are asking the Mafia for their services')
+    print('You are walking up to the FBI ')
+    time.sleep(2)
+    os.system('python video5.py')
+    time.sleep(2)
+    print ('Then you are slowly backing away')
