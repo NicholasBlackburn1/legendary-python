@@ -25,7 +25,7 @@ print ('''You need to infect one of the FBI computers\n
      1. Stay at home and send fishing emails to FBI employies\n
      2. Go to Starbucks and exploit the FBI's unupdated file server\n
      3. Walk into the FBI headquartors and threaten the receptionist with Ak\n
-     5. Stay Home with your Neko companion and Snuggle together\n
+     4. Stay Home with your Neko companion and Snuggle together\n
      ''')
 menu_number_text = input('Enter the number you want\n')
 menu_number = int(menu_number_text)
