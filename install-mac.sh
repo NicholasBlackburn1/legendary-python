@@ -20,6 +20,7 @@ m"   "  mmm   mmmmm   mmm
 #    # m"""#  # # #  #""""
 "mmm" "mm"#  # # #  "#mm"
 
+
 EOF
 echo now installing tkinter\n
 brew install tcl-tk
@@ -27,3 +28,8 @@ echo now installing Python\n
 brew install python --with-tlc-tk
 echo now installing pip\n
 brew install pip
+echo now installing required pip packages
+pip install -r pipreq.txt
+echo starting legendary-Python-Game
+wait 2
+python python-loding-screen.py
