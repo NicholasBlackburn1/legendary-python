@@ -1,7 +1,6 @@
 
 import time
 import os
-import pygame.mixer
 # vars
 deaths = 0
 total = 0
@@ -25,6 +24,7 @@ print('Today is Dec 15 2018')
 time.sleep(1)
 print 'You are a hacker and you want to hack in to the government\n'
 time.sleep(1)
+
 # slection menu
 print ('''You need to infect one of the FBI computers\n
 
@@ -85,5 +85,4 @@ if menu_number == 4:
     time.sleep(2)
     print ('well this is the bestday ever')
     time.sleep(1)
-    pygame.mixer.music.load('best.wav')
-    pygame.mixer.music.play(-1)
+    os.system("aplay best.wav")
