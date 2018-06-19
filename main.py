@@ -27,7 +27,7 @@ print ('''You need to infect one of the FBI computers\n
      1. Stay at home and send fishing emails to FBI employies\n
      2. Go to Starbucks and exploit the FBI's unupdated file server\n
      3. Walk into the FBI headquartors and threaten the receptionist with Ak\n
-     4. Stay Home with your Neko companion and Snuggle together by the fireplace\n
+     4. Stay Home with your Neko companion and Snuggle together \n
      ''')
 menu_number_text = input('Enter the number you want\n')
 menu_number = int(menu_number_text)
@@ -70,11 +70,11 @@ if menu_number == 3:
     time.sleep(2)
     print ('you never came back')
     # menu number 4
-    if menu_number == 4:
-        print ('well your favorite moment')
+if menu_number == 4:
+    print ('well your favorite moment')
     time.sleep(2)
     os.system('python video6.py')
     time.sleep(2)
     print ('well this is the bestday ever')
     time.sleep(1)
-    os.system('python video7.py')
+    playsound.playsound('best.mp3')
