@@ -31,5 +31,5 @@ brew install pip
 echo now installing required pip packages
 pip install -r pipreq.txt
 echo starting legendary-Python-Game
-wait 2
+clear
 python python-loding-screen.py
