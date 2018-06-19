@@ -1,8 +1,7 @@
 
 import time
 import os
-import playsound
-from pynput.keyboard import Key,
+import pygame
 # vars
 deaths = 0
 total = 0
@@ -14,10 +13,13 @@ deaths = userfail
 life = usersuccess - userfail
 
 # intro
+
+
 def intro():
 
-
     print 'Welcome to the legendary Python Game\n',
+
+
 time.sleep(1)
 print('Today is Dec 15 2018')
 time.sleep(1)
@@ -64,8 +66,6 @@ if menu_number == 2:
     os.system('python video4.py')
     time.sleep(2)
     print('your computer blew up when your were downloading the information ')
-    os.system('clear')
-    intro()
 
 # menu number 3
 if menu_number == 3:
@@ -77,17 +77,13 @@ if menu_number == 3:
     time.sleep(2)
     print ('you never came back')
     os.system('clear')
-    intro()
     # menu number 4
 if menu_number == 4:
-    print ('well your favorite moment')
+    print ('well this is your favorite moment')
     time.sleep(2)
     os.system('python video6.py')
     time.sleep(2)
     print ('well this is the bestday ever')
     time.sleep(1)
-while menu_number == 4:
-    playsound.playsound('best.mp3')
-
-if menu_number == Key.esc:
-        KeyboardInterrupt
+    pygame.mixer.Sound("best.mp3")
+    pygame.mixer.music.play(-1)
