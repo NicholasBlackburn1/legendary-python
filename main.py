@@ -13,8 +13,7 @@ deaths = userfail
 life = usersuccess - userfail
 
 # intro
-print 'Welcome to the Python Game',
-playsound.playsound('music.mp3')
+print 'Welcome to the Python Game\n',
 time.sleep(1)
 print 'You are a hacker and you want to hack in to the government\n'
 time.sleep(1)
@@ -36,7 +35,12 @@ if menu_number == 1:
     print('You are sending fishing attacks to the FBI')
     time.sleep(2)
     os.system('python video.py')
+    time.sleep(2)
     print('then you get a surprise')
+    time.sleep(1)
+    os.system('python video1.py')
+    time.sleep(2)
+    print('you got killed by an FBI officer')
 
 #  menu number 2
 if menu_number == 2:
