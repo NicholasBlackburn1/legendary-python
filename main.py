@@ -13,7 +13,7 @@ deaths = userfail
 life = usersuccess - userfail
 
 # intro
-print 'Welcome to the Python Game\n',
+print 'Welcome to the legendary Python Game\n',
 time.sleep(1)
 print('Today is Dec 15 2018')
 time.sleep(1)
@@ -26,7 +26,7 @@ print ('''You need to infect one of the FBI computers\n
 
      1. Stay at home and send fishing emails to FBI employies\n
      2. Go to Starbucks and exploit the FBI's unupdated file server\n
-     3. Walk into the FBI headquartors and threaten the receptionist with Ak\n
+     3. Walk into the FBI headquartors and threaten the receptionist\n
      4. Stay Home with your Neko companion and Snuggle together \n
      ''')
 menu_number_text = input('Enter the number you want\n')
@@ -77,4 +77,5 @@ if menu_number == 4:
     time.sleep(2)
     print ('well this is the bestday ever')
     time.sleep(1)
+while life < 100:
     playsound.playsound('best.mp3')
