@@ -17,11 +17,11 @@ class Mainscreen:
         self.greet_button = Button(master, text="Start", command=self.greet)
         self.greet_button.pack()
 
-        self.close_button = Button(master, text="Close", command=quit)
+        self.close_button = Button(master, text="Close", command=self.close)
         self.close_button.pack()
 
-    def greet(self):
-        os.system('python main.py')
+        def greet(self):
+            os.system('python main.py')
 
 
 root = Tk()
